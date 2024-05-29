@@ -13,8 +13,10 @@ def count_occurrences(word_list, target_word):
 word_list = ["the", "cat", "sat", "on", "the", "mat"]
 target_word = "the"
 print(count_occurrences(word_list, target_word)) # output: 2
+
 target_word = "cat"
 print(count_occurrences(word_list, target_word)) # output: 1
+
 word_list = ["the", "cat", "sat", "on", "the", "mat"]
 target_word = "dog"
 print(count_occurrences(word_list, target_word)) # output: 0
