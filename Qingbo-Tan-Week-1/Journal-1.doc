@@ -1,0 +1,42 @@
+Summary
+
+1. Purpose of a Search Algorithm
+   The purpose of a search algorithm is to locate a specific item or set of items within a data structure, such as an array or a database. It aims to determine whether the desired item is present and its location within the data structure.
+
+2. Big-O Notation
+   Big-O notation is a mathematical representation used to describe the upper limit of an algorithm's running time or space requirements in relation to the input size. It shows the algorithm's efficiency, and it can compare the performance of different algorithms.
+
+3. Brute-Force Simple Search Algorithm
+   A brute-force simple search algorithm works by sequentially checking each element in the data structure until the desired item is found or all elements have been checked. It is straightforward but can be inefficient for large data sets.
+
+4. Algorithms in O(n) from This Week's Exercises
+   Algorithms that operate in O(n) time complexity, it is linear time. Count_occurrences, Find_max, find_min, calculate_average, are O(n)
+
+5. Big-O Notation for a Simple Search Algorithm
+   The Big-O notation for a simple search algorithm, such as linear search, is O(n). This is because, in the worst case, the algorithm may need to check each of the n elements in the data structure once to find the desired item or determine its absence.
+
+6. Binary Search Algorithm
+   A binary search algorithm works by repeatedly dividing a sorted data structure in half, comparing the target value to the middle element, and then eliminating the half in which the target cannot lie. This process continues until the target is found or the search space is exhausted.
+
+7. Situations for Binary Search
+   Binary search can be used in situations where the data structure is sorted and allows random access, such as arrays or sorted lists. It is efficient for large data sets where linear search would be too slow.
+
+8. Big-O Notation for Binary Search Algorithm
+   The Big-O notation for a binary search algorithm is O(log n). This is because the algorithm halves the search space with each step, leading to a logarithmic time complexity.
+
+Self-Reflection
+
+What did you learn?
+  I learned how different search algorithms work, their time complexities, and the importance of efficiency in algorithm design.
+
+What went smoothly?
+  Understanding and implementing simple and binary search algorithms went smoothly. The concepts were straightforward, and the coding exercises reinforced the material effectively.
+
+What was difficult about the content this week?
+  Grasping the concept of Big-O notation and applying it to various algorithms was challenging at first. It required careful thought about how the algorithms scale with input size.
+
+How will you approach things differently next time?
+  Next time, I will focus more on visualizing how algorithms work with different input sizes and edge cases to better understand their performance and limitations.
+
+Do you have any feedback about the content for this week?
+  The content was comprehensive and well-structured.
