@@ -16,12 +16,12 @@ def binary_search(list, item):
             low = mid + 1
     return None
 
-with open("1.txt") as file:
-    next(file)  # skip headers
-    for line in file:
-        parts = line.strip().split(",")
-        names.append(parts[0])
-        ids.append(int(parts[1]))
+    with open("student_data.txt") as file:
+        next(file)  # skip headers
+        for line in file:
+            parts = line.strip().split(",")
+            names.append(parts[0])
+            ids.append(int(parts[1]))
 
 # Ensure ids are sorted for binary search
 sorted_indices = sorted(range(len(ids)), key=lambda i: ids[i])
