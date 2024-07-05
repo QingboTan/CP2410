@@ -25,6 +25,4 @@ plt.xlabel('n')
 plt.ylabel('f(n)')
 plt.title('Big O Notation')
 plt.legend()
-
-# Show the plot
 plt.show()
