@@ -5,7 +5,7 @@ def is_prime(num):
         return True
     if num % 2 == 0: #prime number cannot be even
         return False
-    for i in range(3, n, 2): #check odd number from 3(first odd number) to n
+    for i in range(3, num, 2): #check odd number from 3(first odd number) to n
         if num % i == 0: #check if prime number is divisible by'i'
             return False
     return True
